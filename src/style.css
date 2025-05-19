@@ -1,4 +1,3 @@
-/* Base Styling */
 body {
   background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
   font-family: "Lora", serif;
@@ -16,7 +15,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Weather App Container */
 .weather-app {
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(20px);
@@ -28,7 +26,6 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-/* Header & Search */
 header {
   border-bottom: 1px solid #e0dff7;
   padding-bottom: 30px;
@@ -71,12 +68,10 @@ header {
   background-color: #7a4ae0;
 }
 
-/* Main Content */
 main {
   padding: 20px 0;
 }
 
-/* City and Details */
 .weather-app-data {
   display: flex;
   justify-content: space-between;
@@ -102,7 +97,6 @@ main {
   color: #f65282;
 }
 
-/* Temperature Display */
 .weather-app-temperature-container {
   display: flex;
   align-items: center;
@@ -132,18 +126,18 @@ main {
   justify-content: space-between;
   margin-top: 40px;
   gap: 15px;
-  flex-wrap: nowrap; /* Prevents wrapping to next line */
-  overflow-x: auto; /* Allows horizontal scroll on small screens */
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 .weather-forecast-day {
   background-color: #f9f7fe;
   border-radius: 12px;
   padding: 16px;
-  flex: 1 1 0; /* Each item grows evenly */
+  flex: 1 1 0;
   text-align: center;
-  min-width: 100px; /* Ensures all fit in one line */
-  max-width: 120px; /* Prevents from being too wide */
+  min-width: 100px;
+  max-width: 120px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s;
 }
@@ -175,7 +169,6 @@ main {
   font-size: 16px;
 }
 
-/* Footer */
 footer {
   border-top: 1px solid #e0dff7;
   padding-top: 25px;
@@ -185,7 +178,6 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* Toggle Switch Styling */
 .theme-toggle {
   display: flex;
   align-items: center;
@@ -239,7 +231,6 @@ input:checked + .slider:before {
   transform: translateX(24px);
 }
 
-/* Dark Theme Styles */
 body.dark {
   background: #1e1e2f;
   color: #e0e0e0;
