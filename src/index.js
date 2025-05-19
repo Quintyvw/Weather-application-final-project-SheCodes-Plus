@@ -101,3 +101,9 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Valencia");
+
+const themeToggle = document.querySelector("#theme-switch");
+
+themeToggle.addEventListener("change", () => {
+  document.body.classList.toggle("dark");
+});
